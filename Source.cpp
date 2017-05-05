@@ -7,10 +7,10 @@
 */
 
 int getSum(int myArray[]);	//clear
-int getSumOfSquares(int myArray[]);
+int getSumOfSquares(int myArray[]); //clear
 void printAsChars(int myArray[]);
 double getAverage(int myArray[]);	//clear
-int subtractAllValues(int myArray[]);
+int subtractAllValues(int myArray[]); //clear
 float invertAllValues(int myArray[] ); //clear
 void printGroupMemberNames();
 
@@ -55,10 +55,28 @@ float invertAllValues( int myArray[]){
     return 0 ;
                                      }
 
+// get the sum of all the index array with square of each (by multiple with it's own)
+int getSumOfSquares(int myArray[]) {
+	int sumSquares = 0;
+	for (int i = 0; i < 500; i++) {
+		sumSquares += myArray[i] * myArray[i];
+	}
+	return sumSqaures;
+}
+
+// substract each value in array by its index
+float subtractAllValues(int myArray[]) {
+	for (int i = 0; i < 500; i++) {
+		myArray[i] = myArray[i] - i;
+	}
+	return myArray[];
+}
+
 void printGroupMemberNames() {
 	printf("Anggoro Rahardiyawan\n ");
-	printf("Name2\n ");
+	printf("Prohim Tam\n ");
 	printf("Piseth Soun\n ");
+	printf("name4\n");
 	printf("That's it!\n");
 }
 
