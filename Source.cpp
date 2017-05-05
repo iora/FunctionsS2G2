@@ -8,7 +8,7 @@
 
 int getSum(int myArray[]);	//clear
 int getSumOfSquares(int myArray[]); //clear
-void printAsChars(int myArray[]);
+void printAsChars(int myArray[]); // clear
 double getAverage(int myArray[]);	//clear
 int subtractAllValues(int myArray[]); //clear
 float invertAllValues(int myArray[] ); //clear
@@ -72,11 +72,18 @@ float subtractAllValues(int myArray[]) {
 	return myArray[];
 }
 
+// print as chars
+void printAsChars(int myArray[]) {
+	for (int i = 0; i < 500; i++) {
+		printf("%c ", myArray[i]);
+	}
+}
+
 void printGroupMemberNames() {
 	printf("Anggoro Rahardiyawan\n ");
 	printf("Prohim Tam\n ");
 	printf("Piseth Soun\n ");
-	printf("name4\n");
+	printf("Phalnika Heng\n");
 	printf("That's it!\n");
 }
 
