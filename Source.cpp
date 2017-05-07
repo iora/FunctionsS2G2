@@ -20,11 +20,6 @@ int main(void) {
 	int row[500];
 	for (int i = 0; i < 500; i++)
 		row[i] = i;
-
-	int sum = getSum(row);
-	printf("Sum: %i\n", sum);
-
-	printf("Average: %.3f\n", getAverage(row));
 	
 	return 1;
 }
@@ -51,9 +46,9 @@ double getAverage(int myArray[]){
 float invertAllValues( int myArray[]){
     for (int i = 0 ; i < 500 ; ++i){
         myArray[i] = myArray[i] * (-1);
-                                   }
+    }
     return 0 ;
-                                     }
+}
 
 // get the sum of all the index array with square of each (by multiple with it's own)
 int getSumOfSquares(int myArray[]) {
@@ -69,7 +64,7 @@ float subtractAllValues(int myArray[]) {
 	for (int i = 0; i < 500; i++) {
 		myArray[i] = myArray[i] - i;
 	}
-	return myArray[];
+	return 0;
 }
 
 // print as chars
